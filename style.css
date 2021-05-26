@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+  
+  background-image: url("/playa_seamless.jpeg");
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Black Ops One', cursive;
+  margin: 0;
+}
+
+a {
+  color: #F8F8F8;
+}
+
+box {
+  display: flex;
+  flex-direction: column;
+  
+  background-color: rgba(32, 32, 32, 0.96);
+  color: #F8F8F8;
+  border-radius: 20px;
+  
+  padding: 15px 10px;
+  
+  margin-bottom: 10px;
+}
+
+box > * {
+  margin: 0;
+}
+
+box > *:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
