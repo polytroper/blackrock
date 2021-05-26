@@ -4,6 +4,8 @@ body {
   
   background-image: url("/playa_seamless.jpeg");
   font-family: 'Lato', sans-serif;
+  
+  align-items: center;
 }
 
 h1, h2, h3 {
@@ -34,6 +36,10 @@ box > * {
 
 box > *:not(:last-child) {
   margin-bottom: 10px;
+}
+
+envelope {
+  max-width: 700px;
 }
 
 img {
